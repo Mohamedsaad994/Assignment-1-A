@@ -1,0 +1,27 @@
+header{
+  background-color:#1abc9c;
+}
+.icon{
+  position:relative;
+}
+
+.icon::after{
+  content:'';
+  position:absolute;
+  width:80px;
+  height:4px;
+  background-color:#fff;
+  top:50%;
+  transform: translatey(-50%);
+  left:90px
+}
+.icon::before{
+  content:'';
+  position:absolute;
+  width:80px;
+  height:4px;
+  background-color:#fff;
+  top:50%;
+  transform: translatey(-50%);
+  right:90px
+}
